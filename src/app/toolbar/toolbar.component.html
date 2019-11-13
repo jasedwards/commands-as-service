@@ -1,0 +1,6 @@
+<ul class="slds-button-group-row">
+  <li class="slds-button-group-item" *ngFor="let button of Buttons">
+    <button class="sdls-button slds-button_brand" (click)="click(button)"
+            [attr.title]="button.description || button.text">{{button.text}}</button>
+  </li>
+</ul>
