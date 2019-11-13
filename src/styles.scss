@@ -13069,7 +13069,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("/assets/images/themes/oneSalesforce/banner-brand-default.png"), linear-gradient(to top, rgba(25, 85, 148, 0) 0, #195594);
+  background-image: url("./assets/images/themes/oneSalesforce/banner-brand-default.png"), linear-gradient(to top, rgba(25, 85, 148, 0) 0, #195594);
   background-repeat: repeat-x;
   background-position: top left; }
 .cs .slds-brand-band:after {
@@ -13109,9 +13109,9 @@
 .cs .slds-brand-band.slds-brand-band_none:before {
   height: 0; }
 .cs .slds-brand-band.slds-brand-band_group:before {
-  background-image: url("/assets/images/themes/oneSalesforce/banner-group-public-default.png"); }
+  background-image: url("./assets/images/themes/oneSalesforce/banner-group-public-default.png"); }
 .cs .slds-brand-band.slds-brand-band_user:before {
-  background-image: url("/assets/images/themes/oneSalesforce/banner-user-default.png"); }
+  background-image: url("./assets/images/themes/oneSalesforce/banner-user-default.png"); }
 .cs .slds-brand-band .slds-brand-band_blank {
   background: white; }
 .cs .slds-brand-band .slds-brand-band_blank:before, .cs .slds-brand-band .slds-brand-band_blank:after {
@@ -13826,7 +13826,7 @@
 .cs .slds-popover_walkthrough .slds-popover__header,
 .cs .slds-popover--walkthrough .slds-popover__header {
   background-color: #164a85;
-  background-image: url("/assets/images/popovers/popover-header.png");
+  background-image: url("./assets/images/popovers/popover-header.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -13860,7 +13860,7 @@
 .cs .slds-popover_feature {
   border-color: #164a85;
   background-color: #164a85;
-  background-image: url("/assets/images/popovers/popover-action.png");
+  background-image: url("./assets/images/popovers/popover-action.png");
   background-repeat: no-repeat;
   background-size: 100% 2.25rem;
   background-position: bottom;
@@ -15884,7 +15884,7 @@
 .cs .slds-global-header__logo {
   width: 12.5rem;
   height: 2.5rem;
-  background-image: url("/assets/images/logo-noname.svg");
+  background-image: url("./assets/images/logo-noname.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center; }
@@ -21079,17 +21079,17 @@
 .cs .slds-avatar:hover, .cs .slds-avatar:focus:hover {
   color: currentColor; }
 .cs .slds-avatar.slds-avatar_group-image-small {
-  background: url("/assets/images/group_avatar_96.png") top left/cover no-repeat; }
+  background: url("./assets/images/group_avatar_96.png") top left/cover no-repeat; }
 .cs .slds-avatar.slds-avatar_group-image-medium {
-  background: url("/assets/images/group_avatar_160.png") top left/cover no-repeat; }
+  background: url("./assets/images/group_avatar_160.png") top left/cover no-repeat; }
 .cs .slds-avatar.slds-avatar_group-image-large {
-  background: url("/assets/images/group_avatar_200.png") top left/cover no-repeat; }
+  background: url("./assets/images/group_avatar_200.png") top left/cover no-repeat; }
 .cs .slds-avatar.slds-avatar_profile-image-small {
-  background: url("/assets/images/profile_avatar_96.png") top left/cover no-repeat; }
+  background: url("./assets/images/profile_avatar_96.png") top left/cover no-repeat; }
 .cs .slds-avatar.slds-avatar_profile-image-medium {
-  background: url("/assets/images/profile_avatar_160.png") top left/cover no-repeat; }
+  background: url("./assets/images/profile_avatar_160.png") top left/cover no-repeat; }
 .cs .slds-avatar.slds-avatar_profile-image-large {
-  background: url("/assets/images/profile_avatar_200.png") top left/cover no-repeat; }
+  background: url("./assets/images/profile_avatar_200.png") top left/cover no-repeat; }
 .cs .slds-avatar_x-small,
 .cs .slds-avatar--x-small {
   width: 1.25rem;
@@ -22645,7 +22645,7 @@
 .cs .slds-einstein-header {
   position: relative;
   background-color: #95cbfc;
-  background-image: url("/assets/images/einstein-headers/einstein-header-background.svg");
+  background-image: url("./assets/images/einstein-headers/einstein-header-background.svg");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
@@ -22659,7 +22659,7 @@
 .cs .slds-einstein-header__figure, .cs .slds-einstein-header__figure:last-child {
   margin-bottom: calc((0.75rem + 5px) * -1);
   height: 4.75rem;
-  background-image: url("/assets/images/einstein-headers/einstein-figure.svg");
+  background-image: url("./assets/images/einstein-headers/einstein-figure.svg");
   background-position: right bottom;
   background-repeat: no-repeat; }
 .cs .slds-einstein-header__actions {
@@ -22913,7 +22913,7 @@
   overflow: auto;
   padding: 1rem 3rem 7.75rem;
   color: #00396b;
-  background-image: url("/assets/images/welcome-mat/bg-info@2x.png");
+  background-image: url("./assets/images/welcome-mat/bg-info@2x.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: contain;
