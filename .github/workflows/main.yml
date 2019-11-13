@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: deploy to gh pages
+      run: |
+        npm ci
+        npm run deploy
