@@ -27,10 +27,12 @@ export class CommandExecutorService {
     return result;
   }
 
-  execute(command: string, folder: any): void {
+  execute(command: string, folder: any): boolean {
     if (this.hasCommand(command)) {
       this.commands[command].execute(folder);
+      return true;
     }
+    return false;
   }
 
   init() {

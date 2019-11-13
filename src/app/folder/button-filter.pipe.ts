@@ -10,8 +10,8 @@ export class ButtonFilterPipe implements PipeTransform {
   constructor(private ex: CommandExecutorService) {
   }
 
-  transform(value: IButton[]): any {
-    return (value || []).filter(b => this.ex.hasCommand(b.command));
+  transform(value: IButton[], whiteList: string[]): any {
+    return (value || []).filter(b => this.ex.hasCommand(b.command) || whiteList.indexOf(b.command) > -1);
   }
 
 }

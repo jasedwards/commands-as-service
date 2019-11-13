@@ -26,11 +26,31 @@ export class FolderComponent implements OnInit {
     }
   ];
 
+  whiteList = ['Lazy1'];
+
   constructor(public commandExecutor: CommandExecutorService) {
   }
 
   click(button: IButton) {
-    this.commandExecutor.execute(button.command, this);
+    const done = this.commandExecutor.execute(button.command, this);
+    if (!done) {
+      switch (button.command) {
+        case 'Lazy1':
+          this.Lazy1();
+          break;
+
+        default:
+          console.log('Unable to find command ' + button.command);
+      }
+    }
+  }
+
+  Save() {
+    console.log('Save called from inside folder');
+  }
+
+  Lazy1() {
+    console.log('Lazy 1 executed from inside folder');
   }
 
   ngOnInit() {
